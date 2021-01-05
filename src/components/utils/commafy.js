@@ -1,5 +1,3 @@
-import React from 'react';
-
 const commafy = (value) => {
   if(value === "0") return value;
 
@@ -8,8 +6,8 @@ const commafy = (value) => {
   let isNeg = false;
 
    if(value.includes(".")) {
-     output = value.subString(0, value.indexOf("."));
-     decimal = value .subString(value.indexOf("."));
+     output = value.substring(0, value.indexOf("."));
+     decimal = value.substring(value.indexOf("."));
    } else {
      output = value;
    }
