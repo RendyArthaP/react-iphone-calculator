@@ -13,6 +13,6 @@
 4. Run `npm start` to run the apps.
 
 I already deploy it with heroku:
-https://calculatorwithrendy.netlify.app/
+https://calculatorbyrendy.netlify.app/
 
 I hope you guys enjoy it!
