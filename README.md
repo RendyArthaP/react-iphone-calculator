@@ -13,6 +13,6 @@
 4. Run `npm start` to run the apps.
 
 I already deploy it with heroku:
-https://react-iphone-calculator.herokuapp.com/
+https://calculatorwithrendy.netlify.app/
 
 I hope you guys enjoy it!
