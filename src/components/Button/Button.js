@@ -1,9 +1,10 @@
 import React from 'react';
-import './Button.css'
+import './Button.css';
 
 const Button = ({content, type, onButtonClick}) => {
   return (
     <div
+      // Statementnya untuk coloring di css
       className={`Button ${content === "0" ? "zero" : ""} ${type || ""}`}
       onClick={onButtonClick(content)}
     >
@@ -11,5 +12,5 @@ const Button = ({content, type, onButtonClick}) => {
     </div>
   );
 }
-
-export default Button ;
+ 
+export default Button;

@@ -49,7 +49,7 @@ const App = () => {
       } else {
         setMemory((parseFloat(value)));
       }
-      setValue("0");
+      setValue("0")
       setOperator("+");
       return;
     }
@@ -137,7 +137,6 @@ const App = () => {
 
   return (  
     <div className="App">
-      <div className="top">4:43</div>
       <div className="display">{commafy(value)}</div>
       <div className="buttons">
         <Button 
