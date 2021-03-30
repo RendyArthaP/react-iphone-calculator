@@ -163,7 +163,6 @@ const App = () => {
         <Button onButtonClick={handleButtonPress} content="." />
         <Button onButtonClick={handleButtonPress} content="=" type="operator"/>
       </div>
-      <div className="bottom"></div>
     </div>
   );
 }
